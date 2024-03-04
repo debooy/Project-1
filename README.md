@@ -1,17 +1,17 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Restaurant Ratings*
 
 Submitted by: **Fangjie Lin**
 
-This web app: **insert description**
+This web app: **This Web App shows a card of restaurants and my review on it**
 
-Time spent: **?** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='x' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/image/project.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [ScreenToGif] 

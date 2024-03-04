@@ -1,11 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   color: black;
-  background-color: gray;
+  background-color: #d9b99b;
 }
 
 
@@ -15,12 +12,18 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: gray;
+  background-color: white;
 }
 
-.test{
-  background-color: wheat;
-  display: flex;
+.image-container{
+  background-color: beige;
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 5em;
   flex-wrap: wrap;
-  padding: 10%;
+  display: flex;
+}
+
+.title{
+  font-style: italic;
 }

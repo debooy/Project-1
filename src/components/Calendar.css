@@ -1,0 +1,9 @@
+.Calendar{
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: medium;
+    width: 300px;
+    height: 400px;
+    margin: 4em;
+}

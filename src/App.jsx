@@ -3,25 +3,37 @@ import Calendar from "./components/Calendar";
 
 const App = () => {
   const props = [
-    { location: "location1", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location2", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location3", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location4", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location5", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location6", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location7", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location8", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location9", review: "1", imageUrl: "src/image/test.png" },
-    { location: "location10", review: "1", imageUrl: "src/image/test.png" },
+    { location: "Crown Shy", review: "10", imageUrl: "src/image/image1.png" },
+    { location: "Tatiana", review: "9", imageUrl: "src/image/image2.png" },
+    {
+      location: "Gramercy Tavern",
+      review: "8",
+      imageUrl: "src/image/image3.png",
+    },
+    { location: "Dhamaka", review: "8", imageUrl: "src/image/image4.png" },
+    { location: "Kochi", review: "7", imageUrl: "src/image/image5.png" },
+    { location: "Rezdora", review: "7", imageUrl: "src/image/image6.png" },
+    {
+      location: "Sushi Nakazawa",
+      review: "8",
+      imageUrl: "src/image/image7.png",
+    },
+    { location: "Untable", review: "10", imageUrl: "src/image/image8.png" },
+    { location: "Clover Hill", review: "7", imageUrl: "src/image/image9.png" },
+    {
+      location: "Figure Eight",
+      review: "8",
+      imageUrl: "src/image/image10.png",
+    },
   ];
 
   return (
     <div className="App">
-      <div>
-        <h1>Title Name</h1>
-        <h2>Something</h2>
+      <div className="title">
+        <h1>Best Food Spots In NYC</h1>
+        <h4>Here are my personal review for best food spot in NYC</h4>
       </div>
-      <div className="test">
+      <div className="image-container">
         {props.map((event) => (
           <Calendar
             location={event.location}
